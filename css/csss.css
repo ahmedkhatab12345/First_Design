@@ -1,0 +1,427 @@
+body{
+    height: 5000px;
+}
+.contaner{
+    width: 85%;
+    margin: auto;
+    
+}
+.clearfix{
+    clear: both;
+}
+.header .slid{
+    background-color:#FFF;
+    height: 450px;
+    background-image: url('../images/sss.JPG');
+    background-size: cover;
+
+}
+.header .slid .intro  {
+    background-repeat: repeat ;
+    height: 500px;
+    text-align: center;
+    color:#252F31;
+    padding-top: 200px;
+}
+.header .slid .intro h2{
+    margin: 0px auto;  
+    width: 600px;
+    font-size: 50px;
+    border-top:3px solid #252F31;
+    border-bottom:3px solid #252F31;
+
+}
+.header .slid .intro button{
+    background: none;
+    width: 140px;
+    margin-top: 10px;
+    border: 3px solid #252F31;
+    font-weight: Bold;
+
+}
+.header .nav{
+    background-color: #252F31;
+    color: #fff;
+    overflow: hidden;
+}
+.header .nav h2{
+    float: left;
+    text-transform: uppercase;
+}
+.header .nav h2 span{
+    color: #35D27B;
+}
+.header .nav ul{
+    list-style: none;
+    padding-left:0px ;
+    overflow: hidden;
+}
+.header .nav ul li{
+    float: right;
+    padding: 10px;
+}
+.header .nav ul li a{
+    color: #35D27B;
+    text-decoration: none;
+}
+.header .nav ul li a :hover{
+    color: aliceblue;
+}
+.fithers{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 60px;
+}
+.fithers .feat{
+    float: left;
+    width: 33.2%;
+    height: 150px;
+}
+.fithers .feat h2{
+    text-transform: uppercase;
+    color: #576464;
+}
+.fithers .feat p{
+  color: #999;
+}
+.aboutme{
+    background-color: #F2F2F2;
+    overflow:hidden;
+}
+.aboutme .img{
+    float: left;
+    width:40%;
+}
+.aboutme .img img{
+    width: 100%;
+}
+.aboutme .info{
+    float: right;
+    width:60%;
+}
+.aboutme .info h2{
+    margin: 45px 0px 10px 40px ;
+}
+.aboutme .info >p{
+    margin: 0px 0px 10px 40px ;
+}
+.aboutme .info p{
+    line-height: 1.2;
+    color: #888;
+}
+.aboutme .info .pp{
+   padding-top: 10px;
+}
+.aboutme .info .hobbie{
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.aboutme .info .hobbie .contact{
+    float: left;
+    width:50%;
+    height: 100px;
+    overflow: hidden;
+}
+.aboutme .info .hobbie .contact .icon{
+    float: left;
+    width: 20%;
+}
+.aboutme .info .hobbie .contact .text{
+    float: left;
+    width: 80%;
+}
+.aboutme .info .hobbie .contact .icon img{
+    max-width: 100%;
+}
+.myskills{
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    overflow: hidden;
+   padding-top: 30px;
+    padding-bottom:50px;
+}
+.myskills .skill h2 {
+    color :#555;
+margin:25px 0 20px 40px;}
+
+.myskills .skill p {
+    margin: 0 0 10px 40px;
+    line-height: 1.2;
+    color: #888;
+}
+.myskills .skill,
+.myskills .progres{
+    width:50%;
+    float: left;
+}
+.myskills .skill button{
+    color: #31CD74;
+    border: 2px solid #31CD74;
+    background:none;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 10px 30px;
+}
+.myskills .progres .ticniq {
+    margin-left: 30px;
+}
+.myskills .progres .ticniq h3{
+    color: #555;
+
+}
+.myskills .progres .ticniq  div{
+    background-color: #f2f2f2;
+    height: 25px;
+}
+.myskills .progres .ticniq  div span{
+    background-color:#31CD74 ;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+}
+.reso{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    float: none;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+.reso h2{
+    color: #555 ;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.reso p{
+    color:#555;
+    margin-left: 20px;
+
+}
+.reso button{
+    padding:20px 20px;
+    margin-top: 20px;
+    color:#31CD74;
+    border: 3px solid #31CD74;
+    background: none;
+}
+.education{
+   
+    margin-top: 30px;
+    overflow: hidden;
+   /* padding-top: 30px;
+    padding-bottom: 30px;*/
+}
+.education .main{
+    width:50%;
+    margin-right: 5%;
+    float: left;
+}
+.education .exp{
+    width:45%;
+    float: left;
+}
+.education .main{
+    margin-left: 0px;
+}
+.education .main h2{
+  padding-top: 30px;
+  margin: 0 0 20px 30px;
+  font-weight: bold;
+  color:#555;
+}
+.education .main p{
+    margin: 0 0 30px 30px;
+    color: #555;
+    line-height: 1.4;
+}
+.education .exp{
+    padding-top: 60px;
+    padding-left:10 px;
+    margin-bottom: 50px;
+
+}
+.education .exp .gra{
+    padding-bottom: 30px;
+}
+.education .exp .gra h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #555;
+}
+.education .exp .gra p{
+    color: #555;
+}
+.education .exp .gra span{
+    background-color:#31CD74 ;
+    color: white;
+    height: 35px;
+}
+.education .exp .cit{
+    padding : 15px 15px ;
+}
+.education .exp .cit p{
+    color: #555;
+    line-height: 1.4;
+
+}
+.education .exp .cit h3{
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.education .exp .cit span{
+    background-color:#31CD74 ;
+    color: white;
+    height: 35px;
+}
+.education .exp .cit p{
+    color:#555;
+
+}
+
+.test{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    float: none;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+.test p{
+    line-height: 1.7;
+    font-size: 18px;
+    font-style: italic ;
+    font-weight: bold;
+    font-family: arial ,tahoma;
+    color: #555;
+    margin-left: 20px;
+}
+.test h3{
+    color: #666;
+    
+}   
+.test ul{
+    list-style :none;
+    text-align: center;
+
+}
+.test ul li{
+width: 10px;
+height: 10px;
+border: 2px solid #31CD74 ;
+display: inline-block;
+border-radius: 15px;
+cursor: pointer;
+}
+.test ul li .active {background-color:#31CD74 ;
+}
+
+.port{
+    padding-bottom: 70px;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.port p{
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.port .collection{
+    overflow: hidden;
+}
+.port .collection >div{
+    float: left;
+    width: 33.2%;
+}
+.port .collection >div img{
+    width: 92%;
+    margin:15px;
+    background-color: #fff;
+    box-shadow:10px 10px  7px #31CD74 ;
+  
+}
+.contact{
+    background-color: #252F31;
+    overflow: hidden;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+.contact p strong{color: #F1F1F1;}
+.contact .info h2{color: white; text-transform: uppercase;}
+.contact .info p{color:#75797A; line-height: 1.5;}
+.contact .info{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.contact .form{
+    float: left;
+    width: 45%;
+}
+.contact .form label{
+    display: block;
+    color: #F1F1F1;
+    margin:10px 10px;
+}
+.contact .form input[type="text"]{
+    background-color: #4D5759;
+    color:#fff;
+    padding: 10px;
+    width: 400px;
+    border: 2px solid #4D5759;
+}
+.contact .form input[type="email"]{
+    background-color: #4D5759;
+    color:#fff;
+    padding: 10px;
+    width: 400px;
+    border: 2px solid #4D5759;
+}
+.contact .form input[type="number"]{
+    background-color: #4D5759;
+    color:#fff;
+    padding: 10px;
+    width: 400px;
+    border: 2px solid #4D5759;
+}
+.contact .form  textarea{
+    background-color: #4D5759;
+    color:#fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    border: 2px solid #4D5759;
+    height: 10px;
+}
+.contact .form input[type="submit"]{
+    padding: 10px 20px;
+    color: #fff;
+    background-color:#75797A ;
+    border: 0;
+    margin-left: 55%;
+    margin-top: 10px;
+}
+.footer{
+    background-color: #191E22;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color:#75797A;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer span{
+    color: #35D27B ;
+}
